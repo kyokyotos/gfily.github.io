@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+  <div class = "main_container">
+    <div class = "main_text">
+      <h1> Hi love,</h1>
+    </div>
+    <div class="sub_text">
+      <p>i love everything about you.</p>
+    </div>
+    <div class = "happy_text">
+      <p> you make me the happiest girl and i couldnt wait to say this</p>
+    </div>
+    <div class="gif_container">
+      <img src="https://media.giphy.com/media/37jFFYnA5FrlH5fKKg/giphy.gif" alt="Cute animated illustration">
+  </div>
+  <div class = "buttons">
+    <button class="btn" id = "yesButton" onclick="nextPage()">click here :D</button>
+    <button class="btn" id="noButton" onmouseover="moveButton()">no i hate you</button>
+  </div>
+  <script>
+    function nextPage() {
+        window.location.href = "yes.html";
+    }
+    
+    function moveButton() {
+        var x = Math.random() * (window.innerWidth - document.getElementById('noButton').offsetWidth);
+        var y = Math.random() * (window.innerHeight - document.getElementById('noButton').offsetHeight);
+        document.getElementById('noButton').style.left = `${x}px`;
+        document.getElementById('noButton').style.top = `${y}px`;
+    }
+</script> 
+</body>
+</html>

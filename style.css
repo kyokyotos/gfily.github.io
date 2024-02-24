@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(161, 203, 161);
+}
+
+.main_container {
+  background-color:  rgb(161, 203, 161);
+}
+
+.main_text h1 {
+  color: black;
+  font-size: 50px;
+  font-family:'Bradley Hand ITC';
+}
+
+.sub_text p {
+  color: black;
+  font-family:'Bradley Hand ITC';
+  font-size: 25px;
+}
+
+.happy_text{
+  color: black;
+  font-family:'Ink Free';
+  font-size: 25px;
+}
+
+.btn {
+  background-color: #FFB6C1;
+  color: white;
+  padding: 15px 32px;
+  align-items: center;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: none;
+  border-radius: 12px;
+  transition: background-color 0.3s ease;
+}

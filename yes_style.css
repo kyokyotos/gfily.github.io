@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #F8C8DC;
+}
+
+.main_container {
+  background-color: #F8C8DC;
+}
+
+.love_text h2 {
+  color: rgb(20, 42, 109);
+  font-size: 50px;
+  font-family:'Bradley Hand ITC';
+}
+
+.love_text h1 {
+  color: rgb(20, 42, 109);
+  font-size: 40px;
+  font-family:'Bradley Hand ITC';
+}
+
+.love_text p {
+  color: rgb(20, 42, 109);
+  font-size: 30px;
+  font-family:'Bradley Hand ITC';
+}
